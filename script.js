@@ -42,7 +42,7 @@ listarProdutos(listaDeItens, "bonecos", vitrineBonecos)
     tagImge.src          = `./assets/img/imagens/${imagem}`
     tagImge.alt          = nome
     tagNome.innerText    = nome
-    tagPreco.innerText   = `R$ ${preco}`.replace(".",",")
+    tagPreco.innerText   = `R$ ${preco},00`.replace(".",",")
   
     //4) MONTANDO O TEMPLATE
     tagLi.appendChild(tagImge)
